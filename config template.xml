@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.YourName.AppName" version="1.0.0"
+        xmlns="<a href="http://www.w3.org/ns/widgets">http://www.w3.org/ns/widgets</a>"
+        xmlns:gap="<a href="http://phonegap.com/ns/1.0">http://phonegap.com/ns/1.0</a>">
+    <name>App Name</name>
+    <description>
+        App Description
+    </description>
+    <author email="your@email.com" href="<a href="http://your.website.com/">http://your.website.com</a>">
+        Your Company Name
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="android-minSdkVersion" value="14" />
+    <preference name="phonegap-version" value="cli-6.3.0" />
+    <preference name="orientation" value="default" />
+    <plugin name="cordova-plugin-splashscreen" source="npm" spec="~3.2.1" />
+    <preference name="ShowSplashScreenSpinner" value="false" />
+    <preference name="FadeSplashScreen" value="false" />
+    <preference name="SplashMaintainAspectRatio" value="true" />
+    <preference name="SplashShowOnlyFirstTime" value="false" />
+    <splash src="splash.png" />
+    <platform name="android">
+     <icon density="ldpi" src="res/icon/android/ldpi.png" />
+     <icon density="mdpi" src="res/icon/android/mdpi.png" />
+     <icon density="hdpi" src="res/icon/android/hdpi.png" />
+     <icon density="xhdpi" src="res/icon/android/xhdpi.png" />
+     <icon density="xxhdpi" src="res/icon/android/xxhdpi.png" />
+     <icon density="xxxhdpi" src="res/icon/android/xxxhdpi.png" />
+</platform>
+</widget>
